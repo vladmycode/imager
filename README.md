@@ -82,7 +82,7 @@ output = imager.process_image(input_image)
 ![Combo 2](examples/300x600_portrait_processed.jpg)
 *A 300x600 px image is transformed into a 1920×1080 px composition. The original (foreground) image is resized, given a 15 px semi-transparent border, and then placed over a blurred 1920×1080 px background generated from the same source image.*
 
-### Example 2: Generate a 1920x1080 px image from a 1200x400 px image (extrawide)
+### Example 3: Generate a 1920x1080 px image from a 1200x400 px image (extrawide)
 
 ```python
 from PIL import Image
